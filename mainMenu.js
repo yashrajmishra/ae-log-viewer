@@ -51,9 +51,9 @@ const template = [
         label: 'Help',
         submenu: [
             {
-                label: 'Source code',
+                label: 'Visit Us',
                 click: () => { 
-                    shell.openExternal('https://github.com/tmoreno/open-log-viewer');
+                    shell.openExternal('https://amitelectric.in');
                 }
             },
             {
@@ -66,8 +66,8 @@ const template = [
                         type: "info",
                         title: "About",
                         buttons: ["OK"],
-                        message: "Open Log Viewer 1.5.1",
-                        detail: "Developed by Tomás Moreno Bernal\nLicensed under the GNU General Public License v3.0"
+                        message: "Amit Electric Viewer",
+                        detail: "Made with ❤️ by Yashraj Mishra"
                     });
                 }
             }

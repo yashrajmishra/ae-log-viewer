@@ -9,8 +9,8 @@ module.exports = class GlobalSettings {
         };
 
         this.info = {
-            textColor: "#000000", 
-            backgroundColor: "rgba(255, 255, 255, 0.9)",
+            textColor: "#0A1F78", 
+            backgroundColor: "rgba(52, 129, 255, 0.9)",
             pattern: "INFO"
         };
 

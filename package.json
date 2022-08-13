@@ -1,8 +1,8 @@
 {
-  "name": "open-log-viewer",
+  "name": "ae-log-viewer",
   "version": "1.5.1",
-  "author": "Tomás Moreno Bernal <@tmorenobernal>",
-  "homepage": "https://github.com/tmoreno/open-log-viewer",
+  "author": "Yashraj Mishra <@yashrajmishra>",
+  "homepage": "https://github.com/yashrajmishra",
   "license": "GPL-3.0-only",
   "main": "main.js",
   "scripts": {
@@ -14,12 +14,12 @@
     "pack:mac": "electron-builder --mac --dir",
     "pack:linux": "electron-builder --linux --dir",
     "dist": "electron-builder -mwl",
-    "dist:win": "electron-builder --win",
+    "dist:win": "electron-builder --win --x64",
     "dist:mac": "electron-builder --mac",
     "dist:linux": "electron-builder --linux"
   },
   "build": {
-    "appId": "com.tmoreno.openlogviewer",
+    "appId": "com.amitelectric.aelogviewer",
     "artifactName": "${name}_${version}.${ext}",
     "files": [
       "main.js",
@@ -51,8 +51,8 @@
       "desktop": {
         "Type": "Application",
         "Encoding": "UTF-8",
-        "Name": "Open Log Viewer",
-        "Comment": "A multi-platform log viewer built with Electron and styled with Material Design",
+        "Name": "Amit Electric Log Viewer",
+        "Comment": "A log viewer built by Yashraj Mishra",
         "Categories": "Utility;"
       }
     },

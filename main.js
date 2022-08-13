@@ -60,7 +60,7 @@ app.allowRendererProcessReuse = true;
 function parseArguments() {
 	program
 		.version(require('./package').version, '-v, --version')
-		.description('A multi-platform log viewer built with Electron and styled with Material Design')
+		.description('A log viewer built for Viewing Service logs for Amit Electric')
 		.option('-f, --file <file-path>', 'file to open')
 		.parse();
 
